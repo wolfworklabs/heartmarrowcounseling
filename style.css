@@ -519,6 +519,12 @@ footer .footer-copy {
   display: none;
 }
 
+.nav-links {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
 /* ── RESPONSIVE ───────────────────────────────────────── */
 @media (max-width: 768px) {
 
@@ -612,6 +618,19 @@ footer .footer-copy {
   .pull-quote {
     font-size: 1.1rem;
     padding-left: 20px;
+  }
+
+  .nav-links {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--cream);
+  flex-direction: column;
+  padding: 16px 24px;
+  gap: 20px;
+  border-bottom: 1px solid rgba(30,30,30,0.08);
   }
 }
 
