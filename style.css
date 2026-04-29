@@ -515,17 +515,68 @@ footer .footer-copy {
 }
 
 /* ── RESPONSIVE ───────────────────────────────────────── */
-@media (max-width: 680px) {
+@media (max-width: 768px) {
+  nav {
+    padding: 12px 16px;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a {
+    font-size: 0.6rem;
+    letter-spacing: 0.12em;
+  }
+
+  .hero {
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+
   .hero-card {
+    padding: 32px 24px;
+    gap: 16px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-text .wordmark-sub {
+    font-size: 0.65em;
+  }
+
+  .hero-text .subtitle {
+    font-size: 0.7rem;
+  }
+
+  section {
+    padding: 64px 20px;
+  }
+
+  .offerings-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .photo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .photo-slot--wide {
+    grid-column: 1;
+  }
+
+  .footer-columns {
     flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding: 40px 28px;
     gap: 32px;
   }
-  .hero-text { text-align: center; }
-  .hero-text .divider { margin: 18px auto; }
-  nav { gap: 16px; padding: 16px 20px; }
-  .photo-grid { grid-template-columns: 1fr; }
+
+  .pull-quote {
+    font-size: 1.1rem;
+    padding-left: 20px;
+  }
 }
 
 /* ── ADDITIONAL UTILITY CLASSES ───────────────────────── */
