@@ -9,13 +9,20 @@
 </head>
 <body>
 
-  <nav>
-    <a href="#mission">Mission</a>
-    <a href="#offerings">Offerings</a>
-    <a href="#space">Space</a>
-    <a href="#rates">Rates</a>
-    <a href="#subletting">For Clinicians</a>
-  </nav>
+<nav>
+  <button class="nav-toggle" aria-label="Toggle menu" onclick="this.parentElement.classList.toggle('open')">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <div class="nav-links">
+    <a href="#mission" onclick="document.querySelector('nav').classList.remove('open')">Mission</a>
+    <a href="#offerings" onclick="document.querySelector('nav').classList.remove('open')">Offerings</a>
+    <a href="#space" onclick="document.querySelector('nav').classList.remove('open')">Space</a>
+    <a href="#rates" onclick="document.querySelector('nav').classList.remove('open')">Rates</a>
+    <a href="#subletting" onclick="document.querySelector('nav').classList.remove('open')">For Clinicians</a>
+  </div>
+</nav>
 
   <!-- ── HERO ── -->
   <div class="hero">
