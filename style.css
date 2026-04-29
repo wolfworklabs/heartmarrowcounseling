@@ -620,18 +620,6 @@ footer .footer-copy {
     padding-left: 20px;
   }
 
-  .nav-links {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  background: var(--cream);
-  flex-direction: column;
-  padding: 16px 24px;
-  gap: 20px;
-  border-bottom: 1px solid rgba(30,30,30,0.08);
-  }
 }
 
 /* ── ADDITIONAL UTILITY CLASSES ───────────────────────── */
