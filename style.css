@@ -357,7 +357,7 @@ hr.section-divider {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 30px;
   font-family: 'Jost', sans-serif;
   font-size: 0.65rem;
   letter-spacing: 0.2em;
@@ -389,7 +389,7 @@ hr.section-divider {
 .photo-caption {
   font-size: 0.7rem;
   letter-spacing: 0.05em;
-  color: var(--mid);
+  color: var(--charcoal);
   text-align: center;
   margin-top: 0.4rem;
   font-style: italic;
