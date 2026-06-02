@@ -357,7 +357,7 @@ hr.section-divider {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
   font-family: 'Jost', sans-serif;
   font-size: 0.65rem;
   letter-spacing: 0.2em;
