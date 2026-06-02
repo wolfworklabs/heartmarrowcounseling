@@ -380,7 +380,7 @@ hr.section-divider {
 
 .space-photo {
   width: 100%;
-  height: 220px;
+  height: 300px;
   object-fit: cover;
   display: block;
 }
@@ -392,6 +392,13 @@ hr.section-divider {
   text-align: center;
   margin-top: 0.2rem;
   text-transform: none;
+}
+
+.photos-note {
+  font-style: italic;
+  color: var(--mid);
+  font-size: 0.9rem;
+  margin-top: 0;
 }
 
 /* ── RATES ────────────────────────────────────────────── */
