@@ -388,7 +388,7 @@ hr.section-divider {
 .photo-caption {
   font-size: 0.7rem;
   letter-spacing: 0.05em;
-  color: var(--mid);
+  color: var(--soft);
   text-align: center;
   margin-top: 0;
   text-transform: none;
@@ -397,7 +397,7 @@ hr.section-divider {
 .photos-note {
   font-style: italic;
   color: var(--charcoal);
-  font-size: 1.1rem;
+  font-size: .9rem;
   margin-top: 0;
 }
 
