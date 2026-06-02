@@ -383,6 +383,7 @@ hr.section-divider {
 .photo-item {
   display: flex;
   flex-direction: column;
+  height: 260px;
 }
 
 .photo-caption {
@@ -617,21 +618,6 @@ footer .footer-copy {
 
   .photo-grid {
     grid-template-columns: 1fr;
-  }
-
-  .photo-caption {
-    font-size: 0.7rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    text-align: center;
-    margin-top: 0.4rem;
-    font-style: italic;
-  }
-
-  .photo-item {
-    display: flex;
-    flex-direction: column;
   }
 
   .photo-slot--wide {
