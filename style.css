@@ -366,9 +366,9 @@ hr.section-divider {
 
 .photo-slot .plus {
   font-size: 1.6rem;
-  font-weight: 300;
-  color: var(--soft);
-  opacity: 0.5;
+  font-weight: 400;
+  color: var(--mid);
+  opacity: 1;
 }
 
 /* when you add real images, use this class */
