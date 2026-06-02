@@ -654,13 +654,6 @@ footer .footer-copy {
   height: 180px;
 }
 
-.photos-note {
-  font-style: italic;
-  color: var(--soft);
-  font-size: 0.9rem;
-  margin-top: 0;
-}
-
 .practitioner-links {
   margin-top: 1em;
 }
