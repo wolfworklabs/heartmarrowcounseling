@@ -396,7 +396,7 @@ hr.section-divider {
 
 .photos-note {
   font-style: italic;
-  color: var(--charcoal);
+  color: var(--mid);
   font-size: .9rem;
   margin-top: 0;
 }
