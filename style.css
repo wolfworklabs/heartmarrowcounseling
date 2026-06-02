@@ -380,6 +380,21 @@ hr.section-divider {
   display: block;
 }
 
+.photo-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-caption {
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--soft);
+  text-align: center;
+  margin-top: 0.4rem;
+  font-style: italic;
+}
+
 /* ── RATES ────────────────────────────────────────────── */
 .rates-table {
   width: 100%;
